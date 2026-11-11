@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+.env
+.env.*
+!.env.example
+.storage/
+private/
+*.flows
+*.har
+*.pem
+*.p12
+*.key
+session.json

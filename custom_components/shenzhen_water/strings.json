@@ -1,0 +1,8 @@
+{
+  "title": "深圳水务",
+  "config": {
+    "step": {"user": {"title": "连接环水管家", "description": "填入本机抓包转换的会话配置。登录过期后需重新获取，切勿分享其中的凭据。", "data": {"session_json": "会话配置 JSON"}}},
+    "error": {"cannot_connect": "会话无效或水务接口不可用，请检查配置后重试"},
+    "abort": {"already_configured": "该户号已添加", "reauth_successful": "重新认证成功", "unique_id_mismatch": "请使用原户号重新认证"}
+  }
+}

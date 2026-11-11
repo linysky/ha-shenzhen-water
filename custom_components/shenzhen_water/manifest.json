@@ -1,0 +1,16 @@
+{
+  "domain": "shenzhen_water",
+  "name": "深圳水务",
+  "version": "0.1.1",
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "cryptography>=44.0.0"
+  ],
+  "codeowners": [
+    "@linysky"
+  ],
+  "documentation": "https://github.com/linysky/ha-shenzhen-water",
+  "issue_tracker": "https://github.com/linysky/ha-shenzhen-water/issues",
+  "integration_type": "service"
+}
