@@ -4,6 +4,10 @@
 
 ## 安装
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=linysky&repository=ha-shenzhen-water&category=integration)
+
+点击徽章可一键把本仓库添加到 HA 的市场（旧版 HACS 同理），或按下面的步骤手动添加。
+
 **HA 2026.11+ 内置市场（Marketplace）**：设置 → 市场 → 右上角「从链接添加」→ 粘贴 `https://github.com/linysky/ha-shenzhen-water` → 安装。首次使用需连接 GitHub（设备登录，只读公开信息），并接受市场的社区项目风险提示。旧版 HACS 用「自定义仓库」，填同一 URL、类型选 Integration。
 
 **手动安装**：把 `custom_components/shenzhen_water/` 复制到 HA 的 `/config/custom_components/`（Docker 对应自己的持久化挂载目录，注意目录层级不要多嵌套一层），重启 HA，再到「设置 → 设备与服务 → 添加集成」搜索「深圳水务」。
